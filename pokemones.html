@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Proyecto Final :: Datos Persona Aleatoria</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="datos_persona_aleatoria.html">
+                Datos Persona Aleatoria
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pokemones.html">
+                Pokémones
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <br>
+      <h1>Pokémones</h1> (Click a un Pokémon para ver sus detalles)
+
+      <div class="jumbotron" id="imagenes_pokemones"></div>
+
+      <div class="jumbotron">
+        <h2 class="display-4 text-center" id="nombre_pokemon_detalle"></h2>
+        <img id="imagen_pokemon_detalle" src="" class="img-fluid rounded mx-auto d-block">
+        <hr class="my-4">
+
+        <div class="row">
+          <div class="col-md-12">
+            <p class="lead" id="habilidades_pokemon_detalle"></p>
+            <hr class="my-4">
+            <p class="lead" id="movimientos_pokemon_detalle"></p>
+            <hr class="my-4">
+            <p class="lead" id="estadisticas_pokemon_detalle"></p>
+            <hr class="my-4">
+            <p class="lead" id="imagenes_pokemon_detalle"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="javascript.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      pokemones();
+    </script>
+  </body>
+</html>
